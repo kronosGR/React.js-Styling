@@ -22,3 +22,13 @@
   background: #fad0ec;
   border-color: #8b005d;
 }
+
+/* in a way if the parent of input has the 2 classes*/
+.form-control.invalid input {
+  border-color: red;
+  background-color: #ffd7d7;
+}
+
+.form-control.invalid label{
+  color: red;
+}
